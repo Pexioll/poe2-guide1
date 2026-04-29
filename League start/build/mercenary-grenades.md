@@ -21,11 +21,26 @@ Oil Grenade — rzuć jeden przed standardową rotacją bossową.
 ### lvl 1–13
 | Skill | Supports |
 |---|---|
-| Explosive Grenade | Multishot I · Elemental Armament I | <-- 1
-| Flash Grenade | Multishot I | <-- 2
+| Explosive Grenade | Multishot I · Elemental Armament I |
+| Flash Grenade | Multishot I |
 | Frost Bomb | — |
 | Attrition | — |
 | Pounce | — |
+
+**Skill priority:** Explosive Grenade > Flash Grenade  
+**Support priority:**
+1. Multishot I + Elemental Armament I → Explosive Grenade
+2. Multishot I → Flash Grenade
+
+**Gem progression:**
+- Lvl 1 Uncut Skill Gem (Renly) → **Explosive Grenade**
+- Skill Gem w Clearfell → **Frost Bomb**
+- Pierwszy support (Areagne, The Grelwood) → **Multishot I** na Explosive Grenade
+- Lvl 3 Gem #1 (Rust King) → upgrade **Explosive Grenade**
+- Lvl 3 Gem #2 (Lachlann) → **Flash Grenade**
+- Lvl 3 Gem #3 (Crowbell) → **Pounce**
+
+---
 
 ### lvl 14–51
 | Skill | Supports |
@@ -37,6 +52,15 @@ Oil Grenade — rzuć jeden przed standardową rotacją bossową.
 | Herald of Ash | — |
 | Attrition | — |
 | Pounce | — |
+
+**Skill priority:** Explosive Grenade > Gas Grenade > Flash Grenade  
+**Support priority:**
+1. Multishot II + Elemental Armament II + Deliberation → Explosive Grenade
+2. Multishot II + Elemental Armament II + Deliberation → Gas Grenade
+3. Multishot II + Stun II → Flash Grenade
+4. Potent Exposure + Persistent Ground I → Oil Grenade
+
+---
 
 ### lvl 52+
 | Skill | Supports |
@@ -50,23 +74,14 @@ Oil Grenade — rzuć jeden przed standardową rotacją bossową.
 | Attrition | — |
 | Pounce | — |
 
----
-
-## Gem Priority — Act 1
-
-- Lvl 1 Uncut Skill Gem (Renly) → **Explosive Grenade**
-- Skill Gem w Clearfell → **Frost Bomb**
-- Pierwszy support (Areagne, The Grelwood) → **Multishot I** na Explosive Grenade
-- Lvl 3 Skill Gem #1 (Rust King) → upgrade **Explosive Grenade**
-- Lvl 3 Skill Gem #2 (Lachlann) → **Flash Grenade**
-- Lvl 3 Skill Gem #3 (Crowbell) → **Pounce**
-
-**Upgrade priority:** Explosive Grenade > Flash Grenade
-
-**Tier 1 Support kolejność:**
-1. Multishot I + Elemental Armament I → Explosive Grenade
-2. Multishot I → Flash Grenade (potem przeniesiesz na Gas Grenade)
-3. Elemental Armament I → Gas Grenade (lvl 14)
+**Skill priority:** Cluster Grenade > Explosive Grenade > Gas Grenade > Flash Grenade  
+**Support priority:**
+1. Multishot II + Elemental Armament II + Deliberation → Explosive Grenade
+2. Multishot II + Elemental Armament II + Deliberation → Gas Grenade
+3. Multishot II + Cooldown Recovery II + Short Fuse I + Deliberation → Cluster Grenade
+4. Multishot II + Stun II → Flash Grenade
+5. Potent Exposure + Persistent Ground III → Oil Grenade
+6. Herbalism II → Herald of Ash
 
 ---
 
