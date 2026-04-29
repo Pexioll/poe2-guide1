@@ -6,7 +6,7 @@ permalink: /campaign/act1/
 
 # Act 1
 
-Final boss: **Count Geonor**
+Final boss: **Count Geonor** 
 
 ## Tasks
 
