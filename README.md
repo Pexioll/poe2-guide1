@@ -2,6 +2,26 @@
 
 Notatki do szybkiego przejscia kampanii w Path of Exile 2, z naciskiem na leaguestart Mercenary Grenades.
 
+## GitHub Pages
+
+Repo jest gotowe do hostowania jako strona przez GitHub Pages.
+
+### Jak uruchomic
+
+1. Wrzuc repo na GitHub.
+2. Wejdz w `Settings -> Pages`.
+3. W `Build and deployment` ustaw:
+	- Source: `Deploy from a branch`
+	- Branch: `main`
+	- Folder: `/ (root)`
+4. Zapisz i poczekaj okolo 1-2 min.
+
+Strona bedzie pod adresem:
+
+`https://twoj-login.github.io/poe2-guide/`
+
+Strona startowa jest w pliku `index.md`.
+
 ## Co jest w projekcie
 
 Projekt ma aktualnie 3 glowne obszary:
@@ -17,11 +37,13 @@ Progresja baz crossbow oraz praktyczny crafting checkpoint po checkpointcie.
 
 ## Struktura plikow
 
-- campaign-default/act-1/tasks.md
-- campaign-default/act-2/tasks.md
-- campaign-default/act-3/tasks.md
-- campaign-default/act-4/tasks.md
-- campaign-default/interludes/tasks.md
+- index.md
+- _config.yml
+- campaign-default/ACT 1.md
+- campaign-default/ACT 2.md
+- campaign-default/ACT 3.md
+- campaign-default/ACT 4.md
+- campaign-default/INTERLUDES.md
 - League start/build/mercenary-grenades.md
 - League start/items/crossbows bases + crafting.md
 
@@ -48,13 +70,7 @@ W League start/items/crossbows bases + crafting.md sa kluczowe momenty:
 - rownolegle gemy i rotacja (build)
 - na checkpointach i przy vendorach upgrade broni (items)
 
-## Stan projektu (aktualny)
+## Nawigacja na stronie
 
-- README byl pusty i zostal uzupelniony.
-- campaign-default zawiera pelne taski Act 1-4 + Interludes.
-- League start zawiera build i itemy pod crossbow.
-- W obecnym stanie nie ma osobnego folderu gems ani test.
-
-## Co dalej
-
-Naturalny kolejny krok to dodanie scalonej listy campaign + build + items w jednym miejscu (timeline "co teraz"), jezeli chcesz grac tylko z jednego pliku.
+- Campaign: Act 1-4 + Interludes
+- League Start: build + crossbow crafting
