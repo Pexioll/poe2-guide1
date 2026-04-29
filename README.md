@@ -1,57 +1,47 @@
-# Path of Exile 2 — Kompletny Poradnik
+# Path of Exile 2 - szybki przewodnik league start
 
-> **Stan:** Early Access (aktualizowane na bieżąco)  
-> **Wersja gry:** Early Access 0.2.x  
-> **Język:** Polski 🇵🇱
+Cel tego repo:
+- zero chaosu podczas grania,
+- szybkie decyzje w kampanii i mapach,
+- minimum czytania, maksimum grania,
+- łatwe dopisywanie własnych notatek.
 
-Witaj w najbardziej kompleksowym, otwartym poradniku do **Path of Exile 2**. Projekt jest otwarty na współpracę — każdy może dodać swój wkład.
+## Jak tego uzywac w trakcie gry
 
----
+1. Otworz [league-start/README.md](./league-start/README.md).
+2. Ustaw swoj plan w [league-start/00-playflow.md](./league-start/00-playflow.md).
+3. Podczas kampanii pracuj tylko na:
+	- [league-start/campaign/act-1.md](./league-start/campaign/act-1.md)
+	- [league-start/campaign/act-2.md](./league-start/campaign/act-2.md)
+	- [league-start/campaign/act-3.md](./league-start/campaign/act-3.md)
+4. Trzymaj stale otwarte trackery:
+	- [league-start/trackers/gems.md](./league-start/trackers/gems.md)
+	- [league-start/trackers/vendor.md](./league-start/trackers/vendor.md)
+	- [league-start/trackers/gear-checks.md](./league-start/trackers/gear-checks.md)
+	- [league-start/trackers/resistances.md](./league-start/trackers/resistances.md)
+5. Po kampanii przejdz do [league-start/maps/README.md](./league-start/maps/README.md).
 
-## 📚 Spis treści
+## Co zostalo przebudowane
 
-| Sekcja | Opis |
-|--------|------|
-| [🗺️ Kampania](./campaign/README.md) | Przejście aktów, bossy, wskazówki |
-| [⚙️ Mechaniki](./mechanics/README.md) | Kluczowe mechaniki gry |
-| [🔨 Buildy](./builds/README.md) | Szablony, checklisty, schematy budowania postaci |
-| [🌍 Endgame](./endgame/README.md) | Atlas, mapy, pinnacle bossy |
-| [💰 Waluta & Handel](./currency/README.md) | Przewodnik po walucie i handlu |
-| [⚒️ Crafting](./crafting/README.md) | Tworzenie przedmiotów |
-| [📋 Cheat Sheets](./cheat-sheets/README.md) | Szybkie referencje i ściągawki |
-| [📖 Zasoby](./resources/README.md) | Linki, narzędzia, słowniczek |
+- Dodany modul [league-start/README.md](./league-start/README.md) jako glowna sciezka grania.
+- Dodane gotowe szablony do samodzielnego uzupelniania w [league-start/templates/](./league-start/templates/).
+- Zachowana stara baza wiedzy (foldery campaign, mechanics, endgame itd.) jako zaplecze referencyjne.
 
----
+## Zasada minimalizmu
 
-## 🚀 Szybki start
+Kazdy plik league-start ma format:
+- Co robie teraz
+- Kiedy wracam do miasta
+- Jakie gemy i linki priorytetowe
+- Jakie itemy sprawdzam u vendora
+- Co jest warunkiem wyjscia do nastepnego etapu
 
-Jeśli dopiero zaczynasz przygodę z PoE2:
+Dzieki temu nie musisz czytac dlugich opisow podczas walki.
 
-1. Przeczytaj [Podstawowe mechaniki](./mechanics/core-mechanics.md)
-2. Sprawdź [Wskazówki do kampanii — Akt 1](./campaign/act1.md)
-3. Naucz się [jak czytać passive tree](./mechanics/passive-tree.md)
-4. Zapoznaj się z [systemem waluty](./currency/currency-guide.md)
-5. Przeczytaj o [systemie flask](./mechanics/flask-system.md) — kluczowe dla przeżycia
-6. Kiedy dotrzesz do endgame — przeczytaj [Przewodnik po Atlasie](./endgame/atlas.md)
+## Wklad i dalszy rozwoj
 
-Nie wiesz co robić? Sprawdź [FAQ dla nowych graczy](./resources/faq.md).
+Instrukcje uzupelniania sa w [CONTRIBUTING.md](./CONTRIBUTING.md).
 
----
+## Licencja
 
-## ⚠️ Ważne uwagi
-
-- PoE2 jest w **Early Access** — mechaniki, wartości i zawartość mogą się zmieniać
-- Buildy są opisane schematycznie — konkretne wartości weryfikuj na bieżąco
-- Jeśli coś jest nieaktualne, zgłoś to przez [Issues](../../issues) lub stwórz Pull Request
-
----
-
-## 🤝 Wkład w projekt
-
-Każdy wkład jest mile widziany! Przeczytaj [CONTRIBUTING.md](./CONTRIBUTING.md) aby dowiedzieć się jak zacząć.
-
----
-
-## 📜 Licencja
-
-Ten projekt jest udostępniony na licencji [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — możesz go kopiować i modyfikować niekomercyjnie z podaniem źródła.
+CC BY-NC-SA 4.0: [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/)

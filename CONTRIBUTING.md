@@ -1,80 +1,57 @@
-# Jak wnieść wkład do projektu
+# Jak rozwijac ten poradnik samodzielnie
 
-Dziękujemy za zainteresowanie współpracą! Ten poradnik jest projektem społecznościowym i każda pomoc jest cenna.
+Ten projekt jest teraz ustawiony pod szybkie granie podczas league startu.
+Ty uzupelniasz tresc, a szablony pilnuja formatu.
 
----
+## Najwazniejsze zasady
 
-## Zasady ogólne
+- Pisz krotko: 1 linia = 1 decyzja.
+- Unikaj dlugich opisow mechanik w plikach roboczych.
+- Notuj tylko to, co przyspiesza gre: gemy, vendor checks, power spikes, warunki przejscia.
+- Gdy nie jestes pewien, wpisz tag [WERYFIKACJA].
 
-- Pisz po polsku (lub angielsku jeśli wolisz — obie wersje są akceptowane)
-- Bądź zwięzły i konkretny
-- Nie wymyślaj — jeśli nie jesteś pewien informacji, zaznacz to jako `[WERYFIKACJA WYMAGANA]`
-- Nie dodawaj specyficznych wartości liczbowych jeśli nie masz ich ze sprawdzonego źródła
-- Oznaczaj wersję gry, do której odnosi się zawartość
+## Gdzie co wpisywac
 
----
+- Plan calego runu: [league-start/00-playflow.md](./league-start/00-playflow.md)
+- Rutyna miasta: [league-start/01-town-checks.md](./league-start/01-town-checks.md)
+- Etapy kampanii: [league-start/campaign/](./league-start/campaign/)
+- Etapy map: [league-start/maps/](./league-start/maps/)
+- Biezace trackery: [league-start/trackers/](./league-start/trackers/)
+- Czyste szablony: [league-start/templates/](./league-start/templates/)
 
-## Struktura Pull Requestów
+## Jak uzupelniac format (obowiazkowo)
 
-### Tytuł PR
-```
-[SEKCJA] Krótki opis zmiany
-```
-Przykłady:
-- `[CAMPAIGN] Dodano wskazówki do Act 2 Boss`
-- `[CHEAT-SHEET] Aktualizacja tabeli walut`
-- `[MECHANICS] Poprawka opisu mechniki Break`
+W plikach campaign i maps trzymaj zawsze te sekcje:
 
-### Opis PR
-- Co zostało dodane/zmienione
-- Na jakiej wersji gry bazuje zmiana
-- Ewentualne źródła (wiki, stream, patch notes)
+1. Cel etapu
+2. Priorytet gemow i linkow
+3. Vendor checks
+4. Kiedy wracam do miasta
+5. Checkpoint wyjscia
+6. Notatki po runie
 
----
+W trackerach trzymaj format tabel i aktualizuj po kazdej wiekszej zmianie (nowy gem, wymiana broni, nowy tier map).
 
-## Jak dodawać nowe treści
+## Prosty cykl aktualizacji po sesji
 
-### Nowy build
-1. Skopiuj [szablon buildu](./builds/TEMPLATE.md)
-2. Wypełnij pola według schematu
-3. Nie wymyślaj statystyk — opisuj koncepcję, nie konkretne wartości
-4. Umieść plik w `builds/[klasa]/[nazwa-buildu].md`
+1. Otworz plik aktu lub mapy, ktory grales.
+2. Dopisz 3-5 najwazniejszych obserwacji.
+3. Popraw trackery gems/vendor/gear.
+4. Usun lub oznacz [NIEAKTUALNE] rzeczy, ktore juz nie dzialaja.
 
-### Nowy boss guide
-1. Sprawdź strukturę istniejących plików w `campaign/bosses/`
-2. Opisz fazy, mechaniki i wskazówki
-3. Nie opisuj konkretnych wartości HP ani DPS jeśli nie są oficjalnie potwierdzone
+## Tagi statusu
 
-### Nowa ściągawka
-1. Sprawdź czy podobna ściągawka już nie istnieje
-2. Użyj tabel Markdown tam gdzie to możliwe
-3. Umieść w `cheat-sheets/`
+- [AKTUALNE] sprawdzone na biezacej wersji
+- [WIP] jeszcze niekompletne
+- [WERYFIKACJA] do sprawdzenia w grze
+- [NIEAKTUALNE] do poprawy po patchu
 
----
+## Styl wpisow
 
-## Oznaczenia stanu treści
+- Stosuj krotkie zdania rozkazujace, np. Sprawdz vendor po wejsciu do miasta.
+- Jedna linia, jedna akcja.
+- Jezeli krok jest krytyczny, dodaj prefiks KRYTYCZNE:.
 
-Używaj tych tagów w plikach:
+## Uwaga praktyczna
 
-| Tag | Znaczenie |
-|-----|-----------|
-| `[EA]` | Early Access — może się zmienić |
-| `[AKTUALNE]` | Zweryfikowane w bieżącej wersji |
-| `[NIEAKTUALNE]` | Wymaga aktualizacji |
-| `[WIP]` | W trakcie pisania |
-| `[WERYFIKACJA]` | Wymaga potwierdzenia |
-
----
-
-## Styl pisania
-
-- Używaj nagłówków hierarchicznie (`#`, `##`, `###`)
-- Używaj tabel dla porównań i list wartości
-- Używaj bloków kodu dla notacji matematycznych lub skrótów klawiszowych
-- Linki wewnętrzne zawsze względne (np. `../mechanics/core-mechanics.md`)
-
----
-
-## Kontakt
-
-Masz pytania? Otwórz [Issue](../../issues/new) z tagiem `question`.
+Jesli chcesz testowac nowy plan bez mieszania w glownych plikach, skopiuj odpowiedni wzor z [league-start/templates/](./league-start/templates/) i pracuj na kopii.
