@@ -1,7 +1,6 @@
 # [0.4] Mercenary Grenades — Build Summary
 
 **Autor:** GuyThatDies | **Klasy:** Witchhunter · Tactician · Gemling Legionnaire  
-**Cel:** szybkie przejście kampanii (swap do endgame buildu po Act 4)
 
 ---
 
@@ -35,10 +34,10 @@ Oil Grenade — rzuć jeden przed standardową rotacją bossową.
 **Gem progression:**
 - Lvl 1 Uncut Skill Gem (Renly) → **Explosive Grenade**
 - Skill Gem w Clearfell → **Frost Bomb**
-- Pierwszy support (Areagne, The Grelwood) → **Multishot I** na Explosive Grenade
-- Lvl 3 Gem #1 (Rust King) → upgrade **Explosive Grenade**
-- Lvl 3 Gem #2 (Lachlann) → **Flash Grenade**
-- Lvl 3 Gem #3 (Crowbell) → **Pounce**
+- Pierwszy support → **Multishot I** → Explosive Grenade
+- Lvl 3 Gem #1 → upgrade **Explosive Grenade**
+- Lvl 3 Gem #2 → **Flash Grenade**
+- Lvl 3 Gem #3 → **Pounce**
 
 ---
 
