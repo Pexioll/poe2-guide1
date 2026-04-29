@@ -1,4 +1,10 @@
-﻿# Act 2
+﻿---
+layout: default
+title: "Act 2"
+permalink: /campaign/act2/
+---
+
+# Act 2
 
 Final boss: **Jamanra, the Abomination**
 

@@ -1,4 +1,10 @@
-﻿# Act 1
+﻿---
+layout: default
+title: "Act 1"
+permalink: /campaign/act1/
+---
+
+# Act 1
 
 Final boss: **Count Geonor**
 

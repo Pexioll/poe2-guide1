@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Crossbow Crafting"
+permalink: /build/crossbows/
+---
+
 # Crossbows — Bases & Crafting
 
 ## Progression

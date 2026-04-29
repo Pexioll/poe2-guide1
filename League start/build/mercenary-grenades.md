@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Mercenary Grenades"
+permalink: /build/grenades/
+---
+
 # [0.4] Mercenary Grenades — Build Summary
 
 **Autor:** GuyThatDies | **Klasy:** Witchhunter · Tactician · Gemling Legionnaire  

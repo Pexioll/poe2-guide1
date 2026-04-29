@@ -1,4 +1,10 @@
-﻿# Act 3
+﻿---
+layout: default
+title: "Act 3"
+permalink: /campaign/act3/
+---
+
+# Act 3
 
 Final boss: **Doryani, Royal Thaumaturge**
 

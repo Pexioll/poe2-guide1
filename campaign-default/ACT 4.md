@@ -1,4 +1,10 @@
-﻿# Act 4
+﻿---
+layout: default
+title: "Act 4"
+permalink: /campaign/act4/
+---
+
+# Act 4
 
 Final boss: **Tavakai, the Chieftain**
 

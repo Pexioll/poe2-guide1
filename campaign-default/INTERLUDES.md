@@ -1,4 +1,10 @@
-﻿# Interludes
+﻿---
+layout: default
+title: "Interludes"
+permalink: /campaign/interludes/
+---
+
+# Interludes
 
 > **Tip:** You can complete the interlude areas in any order.
 

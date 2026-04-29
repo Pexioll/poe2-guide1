@@ -1,10 +1,13 @@
+---
+layout: default
+title: PoE2 Guide
+---
+
 # PoE2 Guide
 
-Szybka nawigacja po notatkach kampanii i buildzie.
+Notatki do league startu — kampania krok po kroku i build Mercenary Grenades.
 
-Uzyj zakladek u gory:
+## Sekcje
 
-- Campaign
-- Build
-
-Na stronie Campaign masz wszystkie akty jako checklisty, a na Build skrot builda i item craftingu.
+- [Campaign](/campaign/) — akty 1–4 jako interaktywne checklisty + interludes
+- [Build](/build/) — setup gemów, priorytety itemów i craftowanie baz crossbowów

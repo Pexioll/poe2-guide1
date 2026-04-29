@@ -1,19 +1,19 @@
 ---
+layout: default
 title: Campaign
 permalink: /campaign/
 ---
 
 # Campaign
 
-## Acts
+## Akty
 
-- [Act 1](campaign-default/ACT%201.md)
-- [Act 2](campaign-default/ACT%202.md)
-- [Act 3](campaign-default/ACT%203.md)
-- [Act 4](campaign-default/ACT%204.md)
-- [Interludes](campaign-default/INTERLUDES.md)
+- [Act 1 — Clearfell / Ogham / Freythorn](/campaign/act1/)
+- [Act 2 — Vastiri Desert / The Ardura Caravan](/campaign/act2/)
+- [Act 3 — Sandswept Ruins / The Azak Bog](/campaign/act3/)
+- [Act 4 — Aggorat / The Bone Pits](/campaign/act4/)
+- [Interludes](/campaign/interludes/)
 
-## Notes
+---
 
-- Taski sa w formacie checklist `- [ ]`.
-- Odhaczaj progres bezposrednio na plikach aktow.
+Każdy akt to interaktywna checklista — odhaczaj taski podczas grania.

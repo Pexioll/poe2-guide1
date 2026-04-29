@@ -1,17 +1,18 @@
 ---
+layout: default
 title: Build
 permalink: /build/
 ---
 
 # Build
 
-## League Start
+## League Start — Mercenary Grenades
 
-- [Mercenary Grenades Build](League%20start/build/mercenary-grenades.md)
-- [Crossbows Bases + Crafting](League%20start/items/crossbows%20bases%20+%20crafting.md)
+- [Rotacja, gemy i priorytety](/build/grenades/)
+- [Bazy crossbowów i crafting](/build/crossbows/)
 
 ## Quick Flow
 
-1. Uzywaj setupu gemow wg przedzialu leveli w buildzie.
-2. Pilnuj checkpointow bazy broni: 10 -> 16 -> 33 -> Cannonade.
-3. Wrzucaj najlepsza dostepna runke dmg (Storm priorytet).
+1. Uzywaj setupu gemow zgodnie z przedzialem leveli opisanym w buildzie.
+2. Pilnuj checkpointow bazy broni: **lvl 10 → 16 → 33 → Cannonade**.
+3. Wrzucaj najlepsza dostepna runke dmg — Storm priorytet.
