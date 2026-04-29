@@ -9,5 +9,5 @@ Notatki do league startu — kampania krok po kroku i build Mercenary Grenades.
 
 ## Sekcje
 
-- [Campaign](/campaign/) — akty 1–4 jako interaktywne checklisty + interludes
-- [Build](/build/) — setup gemów, priorytety itemów i craftowanie baz crossbowów
+- [Campaign]({{ "/campaign/" | relative_url }}) — akty 1–4 jako interaktywne checklisty + interludes
+- [Build]({{ "/build/" | relative_url }}) — setup gemów, priorytety itemów i craftowanie baz crossbowów

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<nav class="act-nav">
+  <a href="{{ "/campaign/" | relative_url }}"
+     class="act-link{% if page.permalink == "/campaign/" %} active{% endif %}">Overview</a>
+  <a href="{{ "/campaign/act1/" | relative_url }}"
+     class="act-link{% if page.permalink == "/campaign/act1/" %} active{% endif %}">Act 1</a>
+  <a href="{{ "/campaign/act2/" | relative_url }}"
+     class="act-link{% if page.permalink == "/campaign/act2/" %} active{% endif %}">Act 2</a>
+  <a href="{{ "/campaign/act3/" | relative_url }}"
+     class="act-link{% if page.permalink == "/campaign/act3/" %} active{% endif %}">Act 3</a>
+  <a href="{{ "/campaign/act4/" | relative_url }}"
+     class="act-link{% if page.permalink == "/campaign/act4/" %} active{% endif %}">Act 4</a>
+  <a href="{{ "/campaign/interludes/" | relative_url }}"
+     class="act-link{% if page.permalink == "/campaign/interludes/" %} active{% endif %}">Interludes</a>
+</nav>
+
+{{ content }}

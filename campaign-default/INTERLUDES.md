@@ -1,5 +1,5 @@
 ﻿---
-layout: default
+layout: campaign
 title: "Interludes"
 permalink: /campaign/interludes/
 ---

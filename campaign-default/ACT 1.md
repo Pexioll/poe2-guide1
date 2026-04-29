@@ -1,5 +1,5 @@
 ﻿---
-layout: default
+layout: campaign
 title: "Act 1"
 permalink: /campaign/act1/
 ---

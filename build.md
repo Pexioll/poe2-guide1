@@ -8,8 +8,8 @@ permalink: /build/
 
 ## League Start — Mercenary Grenades
 
-- [Rotacja, gemy i priorytety](/build/grenades/)
-- [Bazy crossbowów i crafting](/build/crossbows/)
+- [Rotacja, gemy i priorytety]({{ "/build/grenades/" | relative_url }})
+- [Bazy crossbowów i crafting]({{ "/build/crossbows/" | relative_url }})
 
 ## Quick Flow
 

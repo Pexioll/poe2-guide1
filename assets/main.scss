@@ -367,6 +367,43 @@ hr {
   cursor: pointer;
 }
 
+/* ── Act Navigation (campaign sub-tabs) ──────────── */
+.act-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.act-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.9rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-decoration: none;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.act-link:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.act-link.active {
+  background: var(--nav-active-bg);
+  border-color: var(--nav-active-border);
+  color: var(--text);
+  font-weight: 600;
+}
+
 /* ── Responsive ───────────────────────────────────── */
 @media (max-width: 680px) {
   .page-content {
